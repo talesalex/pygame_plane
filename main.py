@@ -30,7 +30,6 @@ def main():
         airplanes.draw(screen)
         pygame.display.flip()
 
-    
 if __name__ == "__main__":
     pygame.init()
     main()
