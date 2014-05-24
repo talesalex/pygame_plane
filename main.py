@@ -7,7 +7,7 @@ from Plane import Plane
 
 def main():
     screen = pygame.display.set_mode((600, 400))
-    pygame.display.set_caption("Plane")
+    pygame.display.set_caption("Plane Pygame")
     
     background = pygame.Surface(screen.get_size())
     background.fill((0, 0, 0))
@@ -29,6 +29,7 @@ def main():
         airplanes.clear(screen, background)
         airplanes.draw(screen)
         pygame.display.flip()
+
     
 if __name__ == "__main__":
     pygame.init()
